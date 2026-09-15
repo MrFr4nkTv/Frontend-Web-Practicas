@@ -18,10 +18,3 @@ Solo uno o dos: se crea la nueva clase en `infra/` y se cambia la línea del `ne
 
 Son tan pocos porque el resto — entidad, DTOs y Service — depende de la interfaz `PrestamoRepository`, no del Map. Mientras la nueva clase cumpla el mismo contrato, lo de arriba no necesita cambios.
 
-## Prueba
-
-Dos pruebas del servicio en `src/servicios/prestamo.service.test.ts`: camino feliz y ejemplar duplicado.
-
-```bash
-npm test
-```
